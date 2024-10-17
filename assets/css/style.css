@@ -85,8 +85,12 @@
   --s-extra-bold: 800;
   --s-black: 900;
   --transition: 0.3s;
-  --font-primary: "Hanken Grotesk", sans-serif;
-  --font-secondary: "Hanken Grotesk", sans-serif;
+  /* --font-secondary: "Hanken Grotesk", sans-serif;
+  --font-primary: "Hanken Grotesk", sans-serif; */
+  --font-primary: 'Courier New', Courier, monospace;
+  --font-secondary: 'Courier New', Courier, monospace;
+  
+
   --font-3: "fontawesome", sans-serif;
   --font-size-b1: 16px;
   --font-size-b2: 16px;
@@ -121,7 +125,9 @@ body {
   line-height: var(--line-height-b1);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Hanken Grotesk", sans-serif;
+  /* font-family: "Hanken Grotesk", sans-serif; */
+  font-family: 'Courier New', Courier, monospace !important;
+  
   color: var(--color-body);
   font-weight: var(--p-regular);
   position: relative;
@@ -191,7 +197,9 @@ h6,
 .h5,
 .h6 {
   word-break: break-word;
-  font-family: "Hanken Grotesk", sans-serif;
+  /* font-family: "Hanken Grotesk", sans-serif; */
+  font-family: 'Courier New', Courier, monospace !important;
+  
   line-height: 1.4074;
   color: var(--color-heading-1);
 }

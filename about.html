@@ -15,6 +15,26 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
+<style>
+    /* Default styling */
+    .flex-container {
+        display: flex;
+    }
+    .founder-text{
+        width:50%
+    }
+
+    /* Media query to remove flex on medium screens (e.g., max-width: 992px) */
+    @media (max-width: 992px) {
+        .flex-container {
+            display: block; /* Change display to block for medium and smaller screens */
+        }
+        .founder-text{
+            width:100%;
+        }
+    }
+</style>
+
 <body class="inner-page about">
 
 
@@ -551,11 +571,11 @@
     <div class="rts-about-area rts-section-gap mt--10">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12" style="display: flex;">
+                <div class="col-lg-12 col-lg-6 flex-container">
                     <!-- <div class="about-page-main-thumbnail-big-img-wrapper rts-reveal-to-bottom-wrapper">
                         <img class="rts-reveal-image-toBottom" src="assets/images/about/10.png" alt="about_large">
                     </div> -->
-                    <div style="width:50%">
+                    <div class="founder-text">
                        <h1>Shruti Gandhi</h1> 
                        <h3>Founder & Managing Partner</h3>
                        <p>Shruti brings a strong mix of operating and investing experience. Previously, Shruti was an early stage venture capital investor at True Ventures, Samsung Electronics, Lightbank, HighBAR Partners, and the i2A Fund. Shruti started working with Machine Learning algorithms while working on her master's thesis in computer science from Columbia University on understanding user behavior on instant messaging platforms. While at IBM she worked on self learning algorithms that detected user location based on IP addresses, which she later incorporated into the Lotus Sametime product. Later, her company Penseev helped users make better connections with their friends based on social data.</p>
@@ -568,7 +588,7 @@
                         </ul>
                         </div>
                     </div>
-                    <div style="margin-left: auto;">
+                    <div style="margin-left: auto; margin-top:40px; text-align: center;">
                         <img src="assets/array-vc/Team/ShrutiXbanner.png" alt="">
                     </div>
                 </div>
